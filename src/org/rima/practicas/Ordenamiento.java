@@ -22,7 +22,7 @@ public class Ordenamiento {
 		for(int j=i+1;j<m.length;j++){
 			//si uno de los siguientes valores es inferior al actual, procede al
 			//intercambio de las posiciones del array
-			if(m[j]<m[i]){
+			if(m[j]>m[i]){
 				aux=m[i];
 				m[i]=m[j];
 				m[j]=aux;
